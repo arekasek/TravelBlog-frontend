@@ -1,0 +1,27 @@
+{
+  "menuItems": [
+    {
+      "icon": {
+        "id": "68b82ec8ba318cdfdb1d6ec5",
+        "alt": "match",
+        "filename": "zapis-wizytowka.png",
+        "mimeType": "image/png",
+        "filesize": 3799323,
+        "width": 2480,
+        "height": 3508,
+        "focalX": 50,
+        "focalY": 50,
+        "createdAt": "2025-09-03T12:04:24.854Z",
+        "updatedAt": "2025-09-03T12:04:24.854Z",
+        "url": "http://localhost:4000/media/zapis-wizytowka.png"
+      },
+      "link": "Facebook",
+      "text": "Pozdro",
+      "id": "68b82ebd1fe466b4f10f3c77"
+    }
+  ],
+  "globalType": "sidebar",
+  "createdAt": "2025-09-03T12:04:29.242Z",
+  "updatedAt": "2025-09-03T12:04:29.242Z",
+  "id": "68b82ecdba318cdfdb1d6ecd"
+}

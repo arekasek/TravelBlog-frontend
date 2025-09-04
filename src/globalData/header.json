@@ -1,0 +1,42 @@
+{
+  "logo": {
+    "id": "68b8b8a65e9bd56ad9bac290",
+    "alt": "logo file",
+    "filename": "6f5cdad9-c14f-4bd8-bee4-c433bc7beaf2-removebg-preview.png",
+    "mimeType": "image/png",
+    "filesize": 102077,
+    "width": 500,
+    "height": 500,
+    "focalX": 50,
+    "focalY": 50,
+    "createdAt": "2025-09-03T21:52:38.110Z",
+    "updatedAt": "2025-09-03T21:52:38.110Z",
+    "url": "http://localhost:4000/media/6f5cdad9-c14f-4bd8-bee4-c433bc7beaf2-removebg-preview.png"
+  },
+  "navLinks": [
+    {
+      "label": "Offers",
+      "link": "/test",
+      "id": "68b82d451fe466b4f10f3c74"
+    },
+    {
+      "label": "Blog",
+      "link": "/Blog",
+      "id": "68b86f04f95dc21e74197157"
+    },
+    {
+      "label": "Info",
+      "link": "/Info",
+      "id": "68b86f3bf95dc21e74197158"
+    },
+    {
+      "label": "Photos",
+      "link": "/Photos",
+      "id": "68b86f4ef95dc21e74197159"
+    }
+  ],
+  "globalType": "header",
+  "createdAt": "2025-09-03T11:57:49.673Z",
+  "updatedAt": "2025-09-03T21:53:20.313Z",
+  "id": "68b82d3d91c5c17f98c63930"
+}

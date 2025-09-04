@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --company-blue: #0088cc;
+}
+.blog-post {
+}
+.blog-post-shadow {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.truncate-3-lines {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+@keyframes zoom {
+  0% {
+    object-fit: ;
+  }
+}
+.transform {
+  transition: transform 1s ease;
+}
+.logo-blue-color {
+  background: var(--company-blue);
+}
+
+.sidebar-contact {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.sidebar-contact-shadow {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.search-bar:active {
+  position: relative;
+  width: 100%;
+  top: 2px;
+}
+.search-bar:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.btn-pricing:active {
+  position: relative;
+  top: 2px;
+}
+.clipped {
+  clip-path: path(
+    "M 12, 12 L 12, 450 A 44,44 0,0,0 47, 495 L 920, 495 A 45,45 0,0,1 965, 540 L 965, 934 A 45,45 0,0,0 1010, 979 L 1847, 979 A 45,45 0,0,0 1892, 934 L 1892, 57 A 45,45 0,0,0 1847, 12 L 1106,12 L 47, 12 A 43,43 0,0,0 12,47 Z"
+  );
+}
+.shadowed {
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.break-words {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
