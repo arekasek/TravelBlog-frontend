@@ -7,9 +7,12 @@ const Page = ({ page }) => {
     return <div>Error: Page not found</div>;
   }
 
+  const layoutToRender =
+    page.pageType === "blog" ? page.blogLayout : page.layout;
+
   return (
     <>
-      <RenderBlocks layout={page.layout} />
+      <RenderBlocks layout={layoutToRender} />
     </>
   );
 };

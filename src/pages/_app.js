@@ -1,4 +1,4 @@
-import Header from "@/blocks/global/Header";
+import Header from "../blocks/global/Header";
 import "@/styles/globals.css";
 import axios from "axios";
 import Footer from "@/blocks/global/Footer";

@@ -16,7 +16,7 @@ const MainBlock = ({ heading, text, image }) => {
   }, []);
 
   return (
-    <div className="w-full min-h-[900px] h-full bg-red-500 relative overflow-hidden min-w-[300px]">
+    <div className="w-full min-h-[900px] h-full bg-gray-300  relative overflow-hidden min-w-[300px]">
       {isLargeScreen && (
         <svg width="0" height="0" className="absolute">
           <defs>
@@ -40,12 +40,12 @@ const MainBlock = ({ heading, text, image }) => {
           }}
         ></div>
 
-        <div className="absolute left-4 bottom-4 z-10 max-w-[30vw] max-h-[50vh]">
-          <div className="w-full h-full p-4 sm:p-6 md:p-8 rounded-3xl bg-white/90 overflow-y-auto">
-            <h2 className="text-black font-oswald font-light mb-2 text-2xl md:text-3xl lg:text-4xl xl:text-5xl break-words">
+        <div className="absolute left-4 bottom-4 z-10 w-[33vw] h-[400px]">
+          <div className="w-full h-full p-4 sm:p-6 md:p-8 rounded-3xl overflow-y-auto ">
+            <h2 className="text-gray-800 font-oswald font-light mb-2 text-2xl md:text-3xl lg:text-4xl 2xl:text-8xl break-words">
               {heading}
             </h2>
-            <p className="text-gray-600 font-oswald font-light text-sm md:text-base lg:text-lg break-words">
+            <p className="text-gray-600 font-oswald font-light text-sm md:text-base lg:text-lg break-words mt-4 max-w-[30vw]">
               {text}
             </p>
           </div>

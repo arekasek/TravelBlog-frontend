@@ -1,15 +1,17 @@
 import PricingBlock from "./PricingBlock";
 import SimpleRichText from "./SimpleRichText";
 import BlogPost from "./BlogPost";
-import TwoColumnBlog from "./TwoColumnBlog";
 import MainBlock from "./MainBlock";
+import BlogContainer from "./BlogContainer";
+import BlogTemplate from "./BlogTemplate";
 
 const blocks = {
   pricingBlock: PricingBlock,
-  blogPost: BlogPost,
+  blogPostBlock: BlogPost,
   simpleRichText: SimpleRichText,
-  twoColumnBlog: TwoColumnBlog,
   mainBlock: MainBlock,
+  blogContainer: BlogContainer,
+  blogTemplate: BlogTemplate,
 };
 
 export default blocks;
